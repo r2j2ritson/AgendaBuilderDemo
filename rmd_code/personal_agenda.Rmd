@@ -1,0 +1,29 @@
+---
+title: "Personalized Conference Agenda"
+output: html_document
+params:
+  my_agenda: NA
+---
+```{r format,echo=FALSE}
+df <- params$my_agenda %>%
+  select(date,start_time,end_time,session,title,speaker,room,org)
+
+df_list <- split(df,df$date)
+
+table_list <- lapply(df_list,function(sub_df){
+    date <- lubridate::as_date(unique(sub_df$date))
+    sub_df2 <- sub_df %>%
+      select(start_time,end_time,session,title,speaker,room,org)
+    datatable(sub_df2,
+              options=list(pageLenth=5,  
+                           initComplete = JS(
+                      "function(settings, json) {",
+                      "$(this.api().table().header()).css({'background-color': '#000', 'color': '#fff', 'font-size': '14px'});",
+                      "}"
+                    )),
+              caption = paste("Agenda for",format(date,"%B %d, %Y")))
+  })
+
+tagList(table_list)
+```
+

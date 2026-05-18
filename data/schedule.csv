@@ -1,0 +1,80 @@
+session_id,month,day,year,start_time,end_time,session,title,speaker,room,org
+1,3,3,2026,9:00,17:00,Workshops,Full Day Workshop #1,Teacher #1,Hall #1,Org #1
+2,3,3,2026,9:00,17:00,Workshops,Full Day Workshop #2,Teacher #2,Hall #2,Org #2
+3,3,3,2026,9:00,12:00,Workshops,Morning Workshop #3,Teacher #3,Room A,Org #3
+4,3,3,2026,9:00,12:00,Workshops,Morning Workshop #4,Teacher #4,Room B,Org #4
+5,3,3,2026,9:00,12:00,Workshops,Morning Workshop #5,Teacher #5,Room C,Org #5
+6,3,3,2026,9:00,12:00,Workshops,Morning Workshop #6,Teacher #6,Room D,Org #6
+7,3,3,2026,13:00,17:00,Workshops,Afternoon Workshop #7,Teacher #7,Room A,Org #7
+8,3,3,2026,13:00,17:00,Workshops,Afternoon Workshop #8,Teacher #8,Room B,Org #8
+9,3,3,2026,13:00,17:00,Workshops,Afternoon Workshop #9,Teacher #9,Room C,Org #9
+10,3,3,2026,13:00,17:00,Workshops,Afternoon Workshop #10,Teacher #10,Room D,Org #10
+11,3,3,2026,18:00,21:00,Reception,Welcom Reception,MC,Main Hall,Chapter
+12,3,4,2026,8:30,12:00,Plenary,Plenary Session Title & Meeting Theme,MC & Panel,Main Hall,Chapter
+13,3,4,2026,14:00,14:20,Concurrent Session #1,Talk #1,Speaker #1,Hall #1,Org #1
+14,3,4,2026,14:20,14:40,Concurrent Session #1,Talk #2,Speaker #2,Hall #1,Org #2
+15,3,4,2026,14:40,15:00,Concurrent Session #1,Talk #3,Speaker #3,Hall #1,Org #3
+16,3,4,2026,15:00,15:20,Concurrent Session #1,Talk #4,Speaker #4,Hall #1,Org #4
+17,3,4,2026,14:00,14:20,Concurrent Session #2,Talk #5,Speaker #5,Hall #2,Org #1
+18,3,4,2026,14:20,14:40,Concurrent Session #2,Talk #6,Speaker #6,Hall #2,Org #4
+19,3,4,2026,14:40,15:00,Concurrent Session #2,Talk #7,Speaker #7,Hall #2,Org #1
+20,3,4,2026,15:00,15:20,Concurrent Session #2,Talk #8,Speaker #8,Hall #2,Org #2
+21,3,4,2026,14:00,14:20,Concurrent Session #3,Talk #9,Speaker #9,Room AB,Org #3
+22,3,4,2026,14:20,14:40,Concurrent Session #3,Talk #10,Speaker #10,Room AB,Org #4
+23,3,4,2026,14:40,15:00,Concurrent Session #3,Talk #11,Speaker #11,Room AB,Org #5
+24,3,4,2026,15:00,15:20,Concurrent Session #3,Talk #12,Speaker #12,Room AB,Org #10
+25,3,4,2026,14:00,14:20,Concurrent Session #4,Talk #13,Speaker #13,Room CD,Org #4
+26,3,4,2026,14:20,14:40,Concurrent Session #4,Talk #14,Speaker #14,Room CD,Org #5
+27,3,4,2026,14:40,15:00,Concurrent Session #4,Talk #15,Speaker #15,Room CD,Org #6
+28,3,4,2026,15:00,15:20,Concurrent Session #4,Talk #16,Speaker #16,Room CD,Org #7
+29,3,4,2026,18:00,21:00,Social,Student-Professional Mixer,MC,Main Hall,Org #8
+30,3,5,2026,9:00,9:20,Concurrent Session #5,Talk #17,Speaker #17,Hall #1,Org #7
+31,3,5,2026,9:20,9:40,Concurrent Session #5,Talk #18,Speaker #18,Hall #1,Org #8
+32,3,5,2026,9:40,10:00,Concurrent Session #5,Talk #19,Speaker #19,Hall #1,Org #9
+33,3,5,2026,10:00,10:20,Concurrent Session #5,Talk #20,Speaker #20,Hall #1,Org #10
+34,3,5,2026,10:20,10:40,Concurrent Session #5,Talk #21,Speaker #21,Hall #1,Org #7
+35,3,5,2026,10:40,11:00,Concurrent Session #5,Talk #22,Speaker #22,Hall #1,Org #8
+36,3,5,2026,11:00,11:20,Concurrent Session #5,Talk #23,Speaker #23,Hall #1,Org #9
+37,3,5,2026,11:20,11:40,Concurrent Session #5,Talk #24,Speaker #24,Hall #1,Org #10
+38,3,5,2026,9:00,9:20,Concurrent Session #6,Talk #25,Speaker #25,Hall #2,Org #1
+39,3,5,2026,9:20,9:40,Concurrent Session #6,Talk #26,Speaker #26,Hall #2,Org #2
+40,3,5,2026,9:40,10:00,Concurrent Session #6,Talk #27,Speaker #27,Hall #2,Org #3
+41,3,5,2026,10:00,10:20,Concurrent Session #6,Talk #28,Speaker #28,Hall #2,Org #4
+42,3,5,2026,10:20,10:40,Concurrent Session #6,Talk #29,Speaker #29,Hall #2,Org #3
+43,3,5,2026,10:40,11:00,Concurrent Session #6,Talk #30,Speaker #30,Hall #2,Org #4
+44,3,5,2026,11:00,11:20,Concurrent Session #6,Talk #31,Speaker #31,Hall #2,Org #5
+45,3,5,2026,11:20,11:40,Concurrent Session #6,Talk #32,Speaker #32,Hall #2,Org #6
+46,3,5,2026,9:00,9:20,Concurrent Session #7,Talk #33,Speaker #33,Room AB,Org #7
+47,3,5,2026,9:20,9:40,Concurrent Session #7,Talk #34,Speaker #34,Room AB,Org #8
+48,3,5,2026,9:40,10:00,Concurrent Session #7,Talk #35,Speaker #35,Room AB,Org #9
+49,3,5,2026,10:00,10:20,Concurrent Session #7,Talk #36,Speaker #36,Room AB,Org #10
+50,3,5,2026,10:20,10:40,Concurrent Session #7,Talk #37,Speaker #37,Room AB,Org #1
+51,3,5,2026,10:40,11:00,Concurrent Session #7,Talk #38,Speaker #38,Room AB,Org #2
+52,3,5,2026,11:00,11:20,Concurrent Session #7,Talk #39,Speaker #39,Room AB,Org #3
+53,3,5,2026,11:20,11:40,Concurrent Session #7,Talk #40,Speaker #40,Room AB,Org #4
+54,3,5,2026,9:00,9:20,Concurrent Session #8,Talk #41,Speaker #41,Room CD,Org #5
+55,3,5,2026,9:20,9:40,Concurrent Session #8,Talk #42,Speaker #42,Room CD,Org #6
+56,3,5,2026,9:40,10:00,Concurrent Session #8,Talk #43,Speaker #43,Room CD,Org #7
+57,3,5,2026,10:00,10:20,Concurrent Session #8,Talk #44,Speaker #44,Room CD,Org #8
+58,3,5,2026,10:20,10:40,Concurrent Session #8,Talk #45,Speaker #45,Room CD,Org #9
+59,3,5,2026,10:40,11:00,Concurrent Session #8,Talk #46,Speaker #46,Room CD,Org #10
+60,3,5,2026,11:00,11:20,Concurrent Session #8,Talk #47,Speaker #47,Room CD,Org #5
+61,3,5,2026,11:20,11:40,Concurrent Session #8,Talk #48,Speaker #48,Room CD,Org #6
+62,3,5,2026,12:00,13:00,Business Lunch,Member Meeting and Business Lunch,President,Canteen,Chapter
+63,3,5,2026,14:00,14:20,Concurrent Session #9,Talk #49,Speaker #49,Hall #1,Org #5
+64,3,5,2026,14:20,14:40,Concurrent Session #9,Talk #50,Speaker #50,Hall #1,Org #5
+65,3,5,2026,14:40,15:00,Concurrent Session #9,Talk #51,Speaker #51,Hall #1,Org #5
+66,3,5,2026,15:00,15:20,Concurrent Session #9,Talk #52,Speaker #52,Hall #1,Org #6
+67,3,5,2026,14:00,14:20,Concurrent Session #10,Talk #53,Speaker #53,Hall #2,Org #3
+68,3,5,2026,14:20,14:40,Concurrent Session #10,Talk #54,Speaker #54,Hall #2,Org #10
+69,3,5,2026,14:40,15:00,Concurrent Session #10,Talk #55,Speaker #55,Hall #2,Org #7
+70,3,5,2026,15:00,15:20,Concurrent Session #10,Talk #56,Speaker #56,Hall #2,Org #6
+71,3,5,2026,14:00,14:20,Concurrent Session #11,Talk #57,Speaker #57,Room AB,Org #3
+72,3,5,2026,14:20,14:40,Concurrent Session #11,Talk #58,Speaker #58,Room AB,Org #4
+73,3,5,2026,14:40,15:00,Concurrent Session #11,Talk #59,Speaker #59,Room AB,Org #10
+74,3,5,2026,15:00,15:20,Concurrent Session #11,Talk #60,Speaker #60,Room AB,Org #7
+75,3,5,2026,14:00,14:20,Concurrent Session #12,Talk #61,Speaker #61,Room CD,Org #10
+76,3,5,2026,14:20,14:40,Concurrent Session #12,Talk #62,Speaker #62,Room CD,Org #7
+77,3,5,2026,14:40,15:00,Concurrent Session #12,Talk #63,Speaker #63,Room CD,Org #8
+78,3,5,2026,15:00,15:20,Concurrent Session #12,Talk #64,Speaker #64,Room CD,Org #9
+79,3,5,2026,18:00,21:00,Banquet,"Awards Ceremony, Silent Auction, Raffle, and Dinner",MC,Main Hall,Chapter

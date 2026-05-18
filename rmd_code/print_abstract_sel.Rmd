@@ -1,0 +1,7 @@
+---
+title: "Abstract"
+output: html_document
+---
+*Speaker: `r talk_sel$speaker`*  
+
+`r talk_sel$abstract`
