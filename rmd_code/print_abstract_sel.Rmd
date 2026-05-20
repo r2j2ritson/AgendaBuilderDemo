@@ -1,7 +1,9 @@
 ---
 title: "Abstract"
-output: html_document
+params:
+  talk_sel: NULL
+output: md_document
 ---
 *Speaker: `r talk_sel$speaker`*  
 
-`r talk_sel$abstract`
+`r params$talk_sel$abstract`

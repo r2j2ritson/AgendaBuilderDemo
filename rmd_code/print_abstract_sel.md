@@ -1,4 +1,4 @@
-*Speaker: Teacher \#5*
+*Speaker: Teacher \#1*
 
 Abstract text here. This is what the session is about and what to
 expect.

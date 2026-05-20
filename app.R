@@ -15,7 +15,8 @@ library(lubridate)
 library(DT)
 library(bslib)
 library(stringr)
-
+library(markdown)
+library(rmarkdown)
 # ---------------------------------------------------------
 # CONFERENCE AGENDA & ABSTRACTS
 # ---------------------------------------------------------
@@ -75,8 +76,6 @@ ui <- fluidPage(
   theme = bs_theme(version = 5,preset = 'flatly'),
   tags$a(href="https://www.idaho-tws.org/",
          tags$img(src="chapter_logo.png",height="150px",style = "margin: 10px;")),
-  tags$a(href="https://www.idaho-tws.org/events/",
-         tags$img(src="meeting_logo.png",height="200px",style = "margin: 10px;")),
   tags$footer(
     "© 2026 Idaho Chapter of The Wildlife Society by Robert Ritson",
     align="left",
@@ -285,11 +284,13 @@ server <- function(input, output, session){
   # -------------------------------------------------------
   observeEvent(input$btn_click, {
     rid <- input$btn_click
-    
+
     talk_sel <- abstracts %>%
       filter(session_id == rid)
-    rmarkdown::render("rmd_code/print_abstract_sel.rmd",output_format = "md_document")
-    
+    rmarkdown::render(input="rmd_code/print_abstract_sel.Rmd",
+                      params=list(talk_sel=talk_sel),
+                      output_format = "md_document")
+
     showModal(modalDialog(
       title = paste(talk_sel$title),
       tags$div(
@@ -300,9 +301,9 @@ server <- function(input, output, session){
       footer = modalButton("Dismiss"),
       size = "xl"
     ))
-    
+
   },ignoreInit = T)
-  
+
   # -------------------------------------------------------
   # DYNAMIC BUTTON OBSERVERS
   # -------------------------------------------------------
@@ -612,10 +613,10 @@ server <- function(input, output, session){
   output$download_agenda <- downloadHandler( #Rmarkdown file creating pdf from selected talks!
     filename = "my_conference_agenda.html",
     content = function(file){
-      temp <- file.path(tempdir(),"rmd_code/personal_agenda.rmd")
-      file.copy("rmd_code/personal_agenda.rmd",temp,overwrite = T)
+      temp <- file.path(tempdir(),"rmd_code/personal_agenda.Rmd")
+      file.copy("rmd_code/personal_agenda.Rmd",temp,overwrite = T)
       rmarkdown::render(
-        input = "rmd_code/personal_agenda.rmd",
+        input = "rmd_code/personal_agenda.Rmd",
         output_file = file,
         params = list(
           my_agenda = rv$my_agenda
